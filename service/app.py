@@ -28,7 +28,7 @@ def load_json():
 predictions = load_json()
 
 @name_space.route("/")
-class MainClass(Resource):2
+class MainClass(Resource):
 
     def options(self):
         response = make_response()
