@@ -30,8 +30,8 @@ After building the models, the next step for me was to build the backend service
 
 Next I built the service for the app. This is what is called by the frontend to populate UI features. The service is built in Python using the Flask library. Depending on the model requested by the frontend pull RESTful request, the service retrieves the data from the json file and returns a dictionary with an array of players and their team names for that specific regression model. 
 
-![web](/images/service.jpg)
-![web](/images/response_example.jpg)
+![web](https://github.com/mmerani/roty-app-full/blob/master/images/service.JPG)
+![web](https://github.com/mmerani/roty-app-full/blob/master/images/response_example.JPG)
 
 
 ## Building the frontend
@@ -39,7 +39,7 @@ Next I built the service for the app. This is what is called by the frontend to 
 Before this project I had no expereince in ReactJS. Using the ReactJS tutorials provided online I was able to build out a simple UI which included a table and a drop down. Although these are simple features, I wanted them to have some specific functionality. On page load the app automatically makes a pull request to my backend to retreive the first model on the drop down menu and popluates the table. Which in this case is Linear Regression. On each click of the drop menu, a pull request is made to retrieve the data for that model listed and the table updates. 
 
 
-![web](/images/test_app.jpg)
+![web](https://github.com/mmerani/roty-app-full/blob/master/images/test_app.JPG)
 
 ## Conclusion
 My predictions are consistent with what the majority of the basketball world believes: Ja Morant will win the 2020 rookie of the year. Not only did my models predict the winner, but it is also said that Kendrick Nunn will be a close second in the race. Now that number 1 overall pick and pre-season favorite to win the award, Zion Williamson, has begun to play in games, it will be interesting to see how this prediction changes in the coming months. 
@@ -48,7 +48,7 @@ When all the components were completed I deployed the UI and service to Github a
 
 link: https://roty-prediction-app.herokuapp.com/
 
-![web](/images/live_app.jpg)
+![web](https://github.com/mmerani/roty-app-full/blob/master/images/live_app.JPG)
 
 
 ## Next Steps
