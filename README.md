@@ -52,7 +52,7 @@ link: https://roty-prediction-app.herokuapp.com/
 
 
 ## Next Steps
-- Figure out deployed app slow load bug. 
+- Figure out deployed app slow load bug. (Edit: Resolved by using reactjs buildpack)
 - Add more Machine Learning algorithms to the project. 
 - Include MVP predictions.
 - Include more advanced player data for models. 
